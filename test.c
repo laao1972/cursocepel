@@ -1,8 +1,5 @@
-#include <stdlib.h>
+#include <assert.h>
 int main(void)
 {
-   if (2+2==5) 
-      abort();
-   
-   return 0;
+   assert(2+2==5) ;
 }
