@@ -18,4 +18,7 @@ add_executable(hello
 
 
 
-add_test(hello hello)
+add_executable(myTest
+    test.c
+)
+add_test(myTest myTest)
